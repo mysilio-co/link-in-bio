@@ -1,0 +1,29 @@
+@tailwind base;
+
+body {
+  @apply bg-gate text-white;
+}
+
+main {
+  @apply w-screen p-6 md:p-12;
+}
+
+@tailwind components;
+
+.concept {
+  @apply text-purple-200;
+}
+
+.content {
+
+}
+
+.title {
+  @apply text-5xl md:text-7xl font-bold font-logo mb-12 max-w-2xl;
+}
+
+.note-body {
+  @apply font-sans text-xl max-w-2xl;
+}
+
+@tailwind utilities;
