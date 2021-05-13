@@ -25,7 +25,7 @@ export default function Home({ conceptPrefix, name, body, customCSS, paymentPoin
   return (
     <>
       <Head>
-        <title>{name}</title>
+        <title>Understory</title>
         {paymentPointer && (
           <meta name="monetization" content={paymentPointer} />
         )}
@@ -35,9 +35,6 @@ export default function Home({ conceptPrefix, name, body, customCSS, paymentPoin
       </Head>
       <main className="min-h-screen">
         <section class="content">
-          <h1 className="title">
-            {name}
-          </h1>
           <div className="note-body">
             <NoteBody json={body} conceptPrefix={conceptPrefix} />
           </div>
