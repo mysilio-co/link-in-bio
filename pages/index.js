@@ -25,7 +25,7 @@ export default function Home({ conceptPrefix, name, body, customCSS, paymentPoin
   return (
     <>
       <Head>
-        <title>Understory</title>
+        <title>Mysilio</title>
         {paymentPointer && (
           <meta name="monetization" content={paymentPointer} />
         )}
@@ -33,8 +33,8 @@ export default function Home({ conceptPrefix, name, body, customCSS, paymentPoin
           <style>{customCSS}</style>
         )}
       </Head>
-      <main className="min-h-screen">
-        <section class="content">
+      <main className="min-h-screen bg-gradient-to-r from-my-green via-ocean to-my-purple">
+        <section className="content">
           <div className="note-body">
             <NoteBody json={body} conceptPrefix={conceptPrefix} />
           </div>

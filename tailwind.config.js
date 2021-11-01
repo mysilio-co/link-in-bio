@@ -6,7 +6,12 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'gate': "url('/gate.jpg')",
-       })
+      }),
+      colors: {
+        ocean: '#2d6da6',
+        'my-green': '#0e90a3',
+        'my-purple': '#944c7d',
+      }
     },
     fontFamily: {
       sans: ['Open Sans', 'sans-serif'],

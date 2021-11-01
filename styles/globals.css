@@ -27,7 +27,7 @@ main {
 }
 
 .note-body a {
-  @apply text-purple-600 border-2 px-6 py-2 border-purple-600 w-3/4 block m-auto;
+  @apply text-white border-4 px-6 py-2 border-white w-3/4 block m-auto;
 }
 
 @tailwind utilities;
